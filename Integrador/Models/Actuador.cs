@@ -26,8 +26,8 @@ namespace Integrador.Models
         }
 
         public void BajarIntensidad()
-        { 
-            
+        {
+            dispositivo.BajaIntensidad();
         }
 
         public void CambiarModoOperacion()
@@ -47,7 +47,7 @@ namespace Integrador.Models
 
         public void SubirIntensidad()
         {
-
+            dispositivo.SubirIntensidad();
         }
 
     }

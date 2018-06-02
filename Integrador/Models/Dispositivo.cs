@@ -9,6 +9,6 @@ namespace Integrador.Models
     {
         public float consumoPorHora { get; set; }
         public string nombreGenerico { get; set; }
-        public Sensor[] Sensores { get => sensores; set => sensores = value; }
+        public actuador Actuador;
     }
 }
