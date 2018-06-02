@@ -7,6 +7,7 @@ namespace Integrador.Models
 {
     public class Actuador
     {
+        private string Magnitud { get; set; }
         public Dispositivo dispositivo;
 
         public void ActivarModoAhorroDeEnergia()

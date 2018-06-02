@@ -9,8 +9,7 @@ namespace Integrador.Models
     {
         private string Magnitud { get; set; }
         private int IntervaloMedicicion { get; set; }
-        private Actuador actuador { get; set; }
-
+        
         public void TomarMedicion()
         {
            
